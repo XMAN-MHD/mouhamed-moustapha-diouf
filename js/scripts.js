@@ -5,3 +5,10 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+// Get the current date
+var currentDate = new Date();
+
+// Get the current year
+var currentYear = currentDate.getFullYear();
+yearEl = document.querySelector('#currentYear');
+yearEl.textContent = currentYear;
