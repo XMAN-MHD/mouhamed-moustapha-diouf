@@ -11588,10 +11588,11 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 400px;
+  max-height: 400px;
+ 
   position: absolute;
-  bottom: 0;
+  bottom: -50;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -11731,4 +11732,16 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+@media only screen and (max-width: 600px) {
+  .profile .profile-img {
+    height: 300px;
+    max-height:300px;
+    position: absolute;
+    bottom: -50;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
 }
