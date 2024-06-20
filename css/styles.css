@@ -11745,3 +11745,19 @@ html {
 
   
 }
+
+/* skills & languages section for  mobile devices */
+@media (max-width: 600px) { /* Bootstrap's breakpoint for small devices */
+  .d-flex-b {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+/* skills & languages section for  mobile devices */
+@media (min-width: 600px) { /* Bootstrap's breakpoint for small devices */
+  .d-flex-b {
+      display: flex;
+      flex-direction: row;
+  }
+}
